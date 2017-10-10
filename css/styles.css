@@ -1,0 +1,39 @@
+/* line 3, /Users/jeverard/Desktop/p1-movie-trailer/css/styles.scss */
+html {
+  background-color: #000; }
+
+/* line 6, /Users/jeverard/Desktop/p1-movie-trailer/css/styles.scss */
+body {
+  border: 1px solid red; }
+
+/* line 10, /Users/jeverard/Desktop/p1-movie-trailer/css/styles.scss */
+h1 {
+  font-size: 8em;
+  color: #0FA; }
+
+/* line 15, /Users/jeverard/Desktop/p1-movie-trailer/css/styles.scss */
+span[class^="char"] {
+  color: #000; }
+
+/* line 21, /Users/jeverard/Desktop/p1-movie-trailer/css/styles.scss */
+img {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto; }
+
+/* line 29, /Users/jeverard/Desktop/p1-movie-trailer/css/styles.scss */
+span[class^="char"]:nth-of-type(odd) {
+  color: #FF0;
+  letter-spacing: -5px; }
+
+/* line 33, /Users/jeverard/Desktop/p1-movie-trailer/css/styles.scss */
+span[class^="char"]:nth-of-type(even) {
+  color: #0FF;
+  letter-spacing: 20px; }
+
+/* line 37, /Users/jeverard/Desktop/p1-movie-trailer/css/styles.scss */
+span[class^="char"]:nth-of-type(6n) {
+  color: #F0F;
+  letter-spacing: -5px; }
+
+/*# sourceMappingURL=styles.css.map */
