@@ -31,8 +31,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 .mejs__fill-container,
 .mejs__fill-container .mejs__container {
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 100px;
 }
 
 .mejs__fill-container {

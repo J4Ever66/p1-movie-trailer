@@ -8,7 +8,7 @@
 4. Brief Description
 5. Rating
 6. Actors, Director, etc.
-7. Poster Image -- Video preview
+7. Poster Image
 
 ## Art Direction
 

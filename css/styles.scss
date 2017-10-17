@@ -9,12 +9,26 @@ html{
 body{
     border: 1px solid red;
 }
+body.flex{
+    display: flex;
+    
+}
+
+header, section, main, article, aside, footer{
+    flex: 1;
+}
+
+
+
 
 h1{
   font-size: 8em;
     color: #0FA;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+}
+
+video{
 }
 
 span[class^="char"]{
@@ -30,3 +44,7 @@ span[class^="char"]{
     transform: skewY(-12deg);
       font-size: .88em;
   }
+/* Layout ( put in different file */
+
+
+
