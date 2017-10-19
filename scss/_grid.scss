@@ -1,0 +1,10 @@
+// Le Grid -- FLEXBOX
+body.flex{
+    display: flex;
+    border: 1px solid red;
+}
+
+header, section, main, article, aside, footer{
+    /* flex: 1; */
+    justify-content: center;
+}

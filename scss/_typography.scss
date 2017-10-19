@@ -1,0 +1,32 @@
+/* Lettering H1 */
+h1{
+  font-size: 8em;
+    color: #0FA;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 3px #000;
+}
+
+
+span[class^="char"]{
+  color: #F00;
+  display: inline-block;
+  
+}
+
+  span.char2{
+    transform: skewX(-12deg);
+    transform: skewY(-12deg);
+    font-size: .92em;
+  }
+
+
+/* Paragraphs */
+
+
+
+/* MISC. */
+
+.noSelect{
+    
+}

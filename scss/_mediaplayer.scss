@@ -1,11 +1,11 @@
-/* Accessibility: hide screen reader texts (and prefer "top" for RTL languages). 
+/* Accessibility: hide screen reader texts (and prefer "top" for RTL languages).
 Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-how/ */
-.mejs__offscreen { 
+.mejs__offscreen {
     clip: rect(1px, 1px, 1px, 1px); /* IE8-IE11 - no support for clip-path */
     clip-path: polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px);
     position: absolute !important;
     height: 1px;
-    width: 1px; 
+    width: 1px;
     overflow: hidden;
 }
 
@@ -31,8 +31,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 .mejs__fill-container,
 .mejs__fill-container .mejs__container {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
 }
 
 .mejs__fill-container {
