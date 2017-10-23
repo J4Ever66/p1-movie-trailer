@@ -2,7 +2,36 @@ html{
     background-color: #111;
 }
 /* Content */
-video {
-    max-width: 100%;
-    width: 100%;
+
+/* Video Player */
+#vid-container {
+    width: 92%;
+}
+
+.mejs__container, .mejs__container-keyboard-inactive, .mejs__video, .mejs__overlay, .mejs__layer, .mejs__overlay-play{
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+video{
+	width: 100%;
+	height: 100%;
+}
+/* Stars */
+
+.star{
+	display: inline-block;
+	position: relative;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    &:path{
+    	fill: #FFF;
+    }
+}
+
+.gold{
+	fill: gold;
 }

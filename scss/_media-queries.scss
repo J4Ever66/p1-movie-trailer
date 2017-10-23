@@ -1,8 +1,7 @@
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 20em) and (max-width: 47em){ 
-
-    // RWD Grid
-    body.flex {
+    /* Element snap 100% */
+    body.flex, main {
        display: block;
     }
     
@@ -11,25 +10,22 @@
        background: yellow;
        content: "Mobile Size";
   }
+
+  #vid-container{
+    width: 100%;
+  }
     
 }
 
 /* Tablet:  768px = 160em */
 @media screen and (min-width: 48em) and (max-width: 79em) {
     
-    
-    // RWD Grid
     main {
         padding: 2em;
-        display: flex;
         justify-content: space-between;
     }
     
-    main article,
-    main aside {
-        width: 50%;
-    }
-    
+  
   /* Diagnostic Styling. Delete When Done. */
   body:before {
        background: yellow;
@@ -42,10 +38,9 @@
 @media screen and (min-width: 80em) { 
     
     // Fixed width. Center Aligned. 
-    body.flex {
+    body.flex, main {
         margin: 0 auto;
-        max-width: 75%;
-        width: 75%;
+        width: 85%;
     } 
     
     

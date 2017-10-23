@@ -1,12 +1,16 @@
 /* Lettering H1 */
 h1{
-  font-size: 8em;
+    font-size: 8em;
     color: #0FA;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    text-shadow: 1px 1px 3px #000;
+    text-shadow: 3px 3px 3px #000;
 }
 
+h2.ul-head{
+  font-family: monospace;
+  font-size: 2em;
+}
 
 span[class^="char"]{
   color: #F00;
@@ -21,7 +25,28 @@ span[class^="char"]{
   }
 
 
-/* Paragraphs */
+/* Paragraphs / Articles */
+#description{
+  font-family: sans;
+  font-size: 1.1em;
+  max-width: 600px;
+}
+
+ul{
+  list-style: square;
+  li{
+    font-family: monospace;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    color: #FFF;
+  }
+
+}
+
+
+p, label{
+  color: #FFF;
+}
 
 
 

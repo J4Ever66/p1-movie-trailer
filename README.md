@@ -2,20 +2,22 @@
 
 ## Content Priority Outline
 
-1. Title
-2. Trailer
-3. Release Date
-4. Brief Description
-5. Rating
+1. Title-
+2. Trailer-
+3. Release Date-
+4. Brief Description-
+5. Rating-
 6. Actors, Director, etc.
 7. Poster Image
+8. Movie Cover
+9. Duration, Age Rating
 
 ## Art Direction
 
 [Audience] - Family, Teens, Adults.
 
 [Color] - Red, Black, White, Grey. 
-High contrast and focus intent. Action packed and adventurous.
+High contrast and focus intent. Action packed, adventurous, spy theme.
 
 [Typography] - Big, Bold headers. Bright and clean cut paragraphs.
 

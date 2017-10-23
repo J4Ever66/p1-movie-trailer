@@ -1,10 +1,25 @@
 // Le Grid -- FLEXBOX
 body.flex{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1600px;
+    background-color: rgba(255, 0, 0, 0.1);
+    background-image: linear-gradient(to top, rgba(255, 0, 0, .3)  1%,  #F00 99%);
+}
+
+main{
     display: flex;
-    border: 1px solid red;
+    flex-wrap: wrap;
 }
 
 header, section, main, article, aside, footer{
-    /* flex: 1; */
-    justify-content: center;
+    flex: auto; 
+    padding: 3%;
+    margin: auto;
+    width: 50%;
+}
+
+article{
+    
 }
