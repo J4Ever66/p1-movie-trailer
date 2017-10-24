@@ -1,5 +1,5 @@
 /* Mobile: 320px = 20em */
-@media screen and (min-width: 20em) and (max-width: 47em){ 
+@media screen and (min-width: 20em) and (max-width: 47.999em){ 
     /* Element snap 100% */
     body.flex, main {
        display: block;
@@ -11,14 +11,11 @@
        content: "Mobile Size";
   }
 
-  #vid-container{
-    width: 100%;
-  }
     
 }
 
 /* Tablet:  768px = 160em */
-@media screen and (min-width: 48em) and (max-width: 79em) {
+@media screen and (min-width: 48em) and (max-width: 79.999em) {
     
     main {
         padding: 2em;

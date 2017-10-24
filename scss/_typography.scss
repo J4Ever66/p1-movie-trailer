@@ -8,7 +8,6 @@ h1{
 }
 
 h2.ul-head{
-  font-family: monospace;
   font-size: 2em;
 }
 
@@ -35,7 +34,6 @@ span[class^="char"]{
 ul{
   list-style: square;
   li{
-    font-family: monospace;
     font-size: 1.3em;
     line-height: 1.6em;
     color: #FFF;
@@ -44,10 +42,26 @@ ul{
 }
 
 
-p, label{
+p{
   color: #FFF;
 }
 
+
+label{
+  display: block;
+  position: absolute;
+  color: #FF0;
+  right: 3px;
+  bottom: 3px;
+
+}
+
+/* Default Font */
+
+ul li, p, h2, label{
+    font-family: monospace;
+
+}
 
 
 /* MISC. */
