@@ -1,0 +1,32 @@
+/* Video Player */
+#vid-container {
+    max-width: 100%;
+    width: 100%;
+}
+
+.mejs__container, .mejs__container-keyboard-inactive, .mejs__video, .mejs__overlay, .mejs__layer, .mejs__overlay-play{
+    max-width: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+.mejs__currenttime, .mejs__duration{
+	color: #F00;
+}
+
+.mejs__time-current{
+	background-color: #F00;
+}
+
+.mejs__time-loaded{
+	background-color: #B00;
+}
+
+.mejs__time-total, .mejs__time-slider, {
+	background-color: #A00;
+}
+
+video{
+	max-width: 100%;
+	height: 100%;
+}
