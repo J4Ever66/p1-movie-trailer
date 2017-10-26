@@ -5,7 +5,7 @@ body.flex{
     align-items: center;
     max-width: 1600px;
     background-color: rgba(255, 0, 0, 0.1);
-    background-image: linear-gradient(to bottom, rgba(255, 0, 0, .3)  1%,  #F00 99%);
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, .66)  1%,  #F00 99%);
 } 
 
 main{
@@ -14,11 +14,10 @@ main{
     align-items: top;
 }
 
-header, section, article, aside{
+header, section, article, aside, section{
     flex: auto; 
     align-content: center;
     margin: auto;
-    background-color: #999;
 }
 
 article{

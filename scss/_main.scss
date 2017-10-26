@@ -5,18 +5,18 @@ html{
 
 /* Video Player */
 #vid-container {
+    max-width: 100%;
     width: 100%;
 }
 
 .mejs__container, .mejs__container-keyboard-inactive, .mejs__video, .mejs__overlay, .mejs__layer, .mejs__overlay-play{
-	max-width: 100%;
+    max-width: 100%;
 	width: 100%;
 	height: 100%;
-	margin: 0 auto;
 }
 
 video{
-	width: 100%;
+	max-width: 100%;
 	height: 100%;
 }
 /* Stars */
@@ -24,12 +24,14 @@ video{
 .star{
 	display: inline-block;
 	position: relative;
-    background-size: contain;
-    width: 100px;
-    height: 100px;
-    &:path{
-    	fill: #FFF;
+    width: 60px;
+    height: 45px;
+    svg {
+	    path{
+	    	fill: #FFF;
+	    }
     }
+
 }
 
 .gold{
